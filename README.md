@@ -1,5 +1,7 @@
 # Docker Container for Crimson Insurance Demo
 
+[Deutsche Anleitung zum Starten des Beispiels](WIE-LAUFEN.md)
+
 This project provides Docker containers for the Crimson demo, see
 https://github.com/crimson-assurance . This project uses a fork of the
 original code
@@ -8,7 +10,8 @@ It consists of four services: portal, letter, notify claims and
 postbox.
 
 To start run `docker-compose up -d`. This will also build
-the Docker images.
+the Docker images. For a detailed guide see
+[How to run](HOW-TO-RUN.md).
 
 https://crimson-portal.herokuapp.com/ is a running instance of the
 application that is deployed on Heroku.
