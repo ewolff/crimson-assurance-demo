@@ -12,7 +12,7 @@ This is a step-by-step guide how to run the example:
   GB of RAM. Otherwise Docker containers might be killed due to lack
   of RAM. On Windows and macOS you can find the RAM setting in the
   Docker application under Preferences/ Advanced.
-  
+
 * After installing Docker you should also be able to run
   `docker-compose`. If this is not possible, you might need to install
   it separately. See https://docs.docker.com/compose/install/ .
@@ -76,11 +76,11 @@ background and won't output their stdout to the command line:
 ```
 [~/crimson-insurance-demo]docker-compose up -d
 crimsoninsurancedemo_crimson-backend_1 is up-to-date
-Recreating crimsoninsurancedemo_crimson-portal_1 ... 
-Recreating crimsoninsurancedemo_crimson-damage_1 ... 
-Recreating crimsoninsurancedemo_crimson-letter_1 ... 
+Recreating crimsoninsurancedemo_crimson-portal_1 ...
+Recreating crimsoninsurancedemo_crimson-damage_1 ...
+Recreating crimsoninsurancedemo_crimson-letter_1 ...
 Recreating crimsoninsurancedemo_crimson-portal_1
-Recreating crimsoninsurancedemo_crimson-postbox_1 ... 
+Recreating crimsoninsurancedemo_crimson-postbox_1 ...
 Recreating crimsoninsurancedemo_crimson-damage_1
 Recreating crimsoninsurancedemo_crimson-letter_1
 Recreating crimsoninsurancedemo_crimson-portal_1 ... done
@@ -113,7 +113,7 @@ terminated. If the log says that the container has been `killed`, you
 need to increase the RAM assigned to Docker to e.g. 4GB. On Windows
 and macOS you can find the RAM setting in the Docker application under
 Preferences/ Advanced.
-  
+
 If you need to do more trouble shooting open a shell in the container
 using e.g. `docker exec -it crimsoninsurancedemo_crimson-letter_1 /bin/sh` or execute
 command using `docker exec crimsoninsurancedemo_crimson-letter_1 /bin/ls`.

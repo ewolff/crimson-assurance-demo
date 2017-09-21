@@ -75,11 +75,11 @@ werden und keine Ausgabe auf der Kommandozeile erzeugen.
 ```
 [~/crimson-insurance-demo]docker-compose up -d
 crimsoninsurancedemo_crimson-backend_1 is up-to-date
-Recreating crimsoninsurancedemo_crimson-portal_1 ... 
-Recreating crimsoninsurancedemo_crimson-damage_1 ... 
-Recreating crimsoninsurancedemo_crimson-letter_1 ... 
+Recreating crimsoninsurancedemo_crimson-portal_1 ...
+Recreating crimsoninsurancedemo_crimson-damage_1 ...
+Recreating crimsoninsurancedemo_crimson-letter_1 ...
 Recreating crimsoninsurancedemo_crimson-portal_1
-Recreating crimsoninsurancedemo_crimson-postbox_1 ... 
+Recreating crimsoninsurancedemo_crimson-postbox_1 ...
 Recreating crimsoninsurancedemo_crimson-damage_1
 Recreating crimsoninsurancedemo_crimson-letter_1
 Recreating crimsoninsurancedemo_crimson-portal_1 ... done
@@ -119,8 +119,7 @@ Container starten. Beispielsweise mit `docker exec -it
 crimsoninsurancedemo_crimson-letter_1 /bin/sh` oder du kannst in dem Container ein
 Kommando mit `docker exec mskafka_catalog_1 /bin/ls` ausführen.
 
-Unter http://localhost:3000/ kannst du nun eine Bestellung
-erfassen. Nach einiger Zeit sollte für die Bestellung eine Lieferung
-und eine Rechnung erstellt worden sei.
+Das System kann nun unter http://localhost:3000/ benutzt werden.
 
 Mit `docker-compose down` kannst du alle Container beenden.
+
