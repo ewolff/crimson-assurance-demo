@@ -30,7 +30,7 @@ services:
       - BACKEND_HOST=crimson-backend
       - BACKEND_PORT=8080
       - POSTBOX_URL=http://${CRIMSON_SERVER:-localhost}:3001
-      - CRIMSON_URL=http://${CRIMSON_SERVER:-localhost}:3000
+      - ROCA_URL=http://${CRIMSON_SERVER:-localhost}:3000
   crimson-postbox:
     build: crimson-postbox
     ports:
