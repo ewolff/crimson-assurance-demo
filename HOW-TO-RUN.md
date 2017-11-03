@@ -67,6 +67,9 @@ crimsoninsurancedemo_crimson-letter                     latest              f8d6
 crimsoninsurancedemo_crimson-backend                    latest              0c1ce5a82033        23 minutes ago      86.2MB
 ```
 
+If the build fails, you can use  `docker-compose build --no-cache` to
+build them from scratch.
+
 ## Run the containers
 
 Now you can start the containers using `docker-compose up -d`. The

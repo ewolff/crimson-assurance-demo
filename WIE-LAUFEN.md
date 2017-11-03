@@ -66,6 +66,9 @@ crimsoninsurancedemo_crimson-letter                     latest              f8d6
 crimsoninsurancedemo_crimson-backend                    latest              0c1ce5a82033        23 minutes ago      86.2MB
 ```
 
+Wenn der Build nicht klappt, dann kann man mit  `docker-compose build
+--no-cache` die Container komplett neu bauen.
+
 ## Docker Container starten
 
 Nun kannst Du die Container mit `docker-compose up -d` starten. Die
