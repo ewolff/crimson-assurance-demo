@@ -24,6 +24,9 @@ Die ist eine Schritt-für-Schritt-Anleitung zum Starten der Beispiele.
 
 ## Docker Container bauen
 
+Weitere Information zu Docker gibt es im
+[Docker Cheatsheet](https://github.com/ewolff/cheatsheets-DE/blob/master/DockerCheatSheet.md).
+
 Zunächst musst du die Docker Images bauen. Wechsel in das Verzeichnis 
 `docker` und starte `docker-compose build`. Das lädt die Basis-Images
 herunter und installiert die Software in die Docker Images:
