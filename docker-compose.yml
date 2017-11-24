@@ -32,7 +32,6 @@ services:
       - BACKEND_PORT=8080
       - ROCA_URL=http://${CRIMSON__SERVER:-localhost}:3000
       - POSTBOX_URL=http://${CRIMSON_SERVER:-localhost}:3001
-      - ROCA_URL=http://${CRIMSON_SERVER:-localhost}:3000
   crimson-postbox:
     build: crimson-postbox
     ports:
@@ -43,6 +42,7 @@ services:
       - SERVER_PORT=3001
       - lasRestServiceUrl=http://crimson-backend:8080
       - lasRocaUrl=http://${CRIMSON_SERVER:-localhost}:3000
+      - ROCA_URL=http://${CRIMSON_SERVER:-localhost}:3000
   crimson-letter:
     build: crimson-letter
     ports:
