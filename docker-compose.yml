@@ -16,7 +16,7 @@ services:
       - PORT=3000
       - BACKEND_HOST=crimson-backend
       - BACKEND_PORT=8080
-      - ROCA_URL=http://${CRIMSON__SERVER:-localhost}:3000
+      - ROCA_URL=http://${CRIMSON_SERVER:-localhost}:3000
       - POSTBOX_URL=http://${CRIMSON_SERVER:-localhost}:3001
       - LETTER_URL=http://${CRIMSON_SERVER:-localhost}:3002
       - DAMAGE_URL=http://${CRIMSON_SERVER:-localhost}:3003
@@ -30,7 +30,7 @@ services:
       - PORT=3003
       - BACKEND_HOST=crimson-backend
       - BACKEND_PORT=8080
-      - ROCA_URL=http://${CRIMSON__SERVER:-localhost}:3000
+      - ROCA_URL=http://${CRIMSON_SERVER:-localhost}:3000
       - POSTBOX_URL=http://${CRIMSON_SERVER:-localhost}:3001
   crimson-postbox:
     build: crimson-postbox
@@ -53,5 +53,5 @@ services:
       - PORT=3002
       - BACKEND_HOST=crimson-backend
       - BACKEND_PORT=8080
-      - ROCA_URL=http://${CRIMSON__SERVER:-localhost}:3000
+      - ROCA_URL=http://${CRIMSON_SERVER:-localhost}:3000
       - POSTBOX_URL=http://${CRIMSON_SERVER:-localhost}:3001
