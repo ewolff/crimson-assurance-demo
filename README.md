@@ -13,9 +13,6 @@ To start run `docker-compose up -d`. This will also build
 the Docker images. For a detailed guide see
 [How to run](HOW-TO-RUN.md).
 
-https://crimson-portal.herokuapp.com/ is a running instance of the
-application that is deployed on Heroku.
-
 The Docker containers should run on `localhost`. Otherwise set the
 environment variable `CRIMSON_SERVER` to the host the containers run on.
 
